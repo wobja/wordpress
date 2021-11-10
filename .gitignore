@@ -1,0 +1,35 @@
+# Ignore everything
+/*
+
+# except...
+!readme.md
+!.gitignore
+!wp-config.php
+!config-custom.php
+!config-sample.php
+!dump.sql
+!core/
+core/wp-content
+core/.htaccess
+!underconstruction/
+!wp-content/
+!.htaccess
+
+# Ignore everything in the 'wp-content' directory, except the 'plugins',
+# 'languages' and 'themes' directories.
+wp-content/*
+!wp-content/plugins/
+!wp-content/themes/
+!wp-content/languages/
+
+# Ignore unwanted files
+*.DS_Store
+*.log
+*.svn
+node_modules
+.sass-cache
+.php_cs.cache
+
+# Ignore plugin logs
+wp-security-log-cron-job.txt
+wp-security-log.txt
